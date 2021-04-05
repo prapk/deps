@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+	<remote  name="thagoo"
+		fetch="https://github.com/thagoo" />
+
+ 	<project path="device/xiaomi/rolex" name="android_device_xiaomi_rolex" clone-depth="1" remote="thagoo" revision="11"/>
+	<project path="kernel/xiaomi/msm8917" name="platform_kernel_xiaomi_msm8917" clone-depth="1" remote="thagoo" revision="r" />
+	<project path="vendor/xiaomi/rolex" name="Wave-Project/vendor_xiaomi_rolex" clone-depth="1"  remote="github" revision="r"/>
+	
+</manifest>
